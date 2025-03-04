@@ -35,5 +35,12 @@ function annoy() {
           else if(clicks == 18 ){
             text.innerHTML = "LOOK OUTSIDE"
           }
+          else if(clicks == 20 ){
+            text.innerHTML = "I'M PLAYING WITH YOU, I'M NOT AT UR HOUSE"
+          }
+          else if(clicks == 22 ){
+            button1.style.backgroundColor = "lime"
+            text.innerHTML = "SPEAKING OF GAMES, LET'S PLAY ONE"
+          }
       }
   

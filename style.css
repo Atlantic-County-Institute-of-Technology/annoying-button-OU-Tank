@@ -1,8 +1,16 @@
+@keyframes mercury{
+    0%{transform:rotate(0deg) translateY(150px) rotate(0deg);
+    }
+    100%{transform:rotate(360deg) translateY(150px) rotate(-360deg);
+    }
+    }
 body{
 background-color: burlywood;
+text-align: center;
+
 
 }
-#button1{
+.button1{
     background-color: red;
     align-items: center;
     margin: 0% auto;  
@@ -15,4 +23,5 @@ background-color: burlywood;
     font-size: 50px;
     font-family:fantasy;
    box-shadow: 1px 10px grey;
+   animation: button1 0.5s linear infinite ;
 }
