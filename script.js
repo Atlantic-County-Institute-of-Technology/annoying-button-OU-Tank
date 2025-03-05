@@ -1,5 +1,6 @@
 let text = document.getElementById( "text" )
 let button1 = document.getElementById("button1");
+let container = document.getElementById("container")
 
 let clicks= 0;
 
@@ -40,7 +41,19 @@ function annoy() {
           }
           else if(clicks == 22 ){
             button1.style.backgroundColor = "lime"
-            text.innerHTML = "SPEAKING OF GAMES, LET'S PLAY ONE"
+            text.innerHTML = "SPEAKING OF PLAYING, LET'S PLAY A GAME"
           }
-      }
-  
+        
+           else if(clicks == 24){
+            text.innerHTML = "SPEAKING OF PLAYING, LET'S PLAY A GAME"
+            let button2 = document.createElement("button2");
+            button2.innerHTML = "Press Me";
+            button2.classList.add("button1");
+            button2.classList.add("button2");
+            container.appendChild(button2);
+          }     
+          else if(clicks == 26 ){
+    
+            text.innerHTML = "SPEAKING OF PLAYING, LET'S PLAY A GAME"
+          }
+        }
