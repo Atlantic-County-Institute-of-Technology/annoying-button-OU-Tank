@@ -1,7 +1,19 @@
 
+@keyframes glitch{
+    from{
+        transform:rotate(0deg) translateX(10.8px) rotate(0deg) ;
+    }
+    to{
+        transform:rotate(360deg) translateX(800px) rotate(-360deg) ;    }
+}
+
 body{
 background-color: burlywood;
 text-align: center;
+}
+
+.glitch{
+    animation: glitch 0.00002s linear infinite;
 }
 
 .button1{
@@ -17,11 +29,12 @@ text-align: center;
     font-size: 50px;
     font-family:fantasy;
    box-shadow: 1px 10px grey;
-   animation: button1 0.5s linear infinite ;
+
 }
 
 .button2{
     background-color: rgb(12, 172, 235);
+    left: 389px;
+    
 }
-
 
