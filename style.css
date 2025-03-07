@@ -13,8 +13,12 @@ text-align: center;
 }
 
 .glitch{
-    animation: glitch 0.00002s linear infinite;
+    animation: glitch 0.00001s linear infinite;
 }
+.lime{
+    background-color: lime;
+}
+
 
 .button1{
     background-color: red;
@@ -34,7 +38,11 @@ text-align: center;
 
 .button2{
     background-color: rgb(12, 172, 235);
-    left: 389px;
+    left: 1875px;
+    top: 1px; 
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
     
 }
 

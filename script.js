@@ -10,14 +10,15 @@ let clicks = 0;
 
 button1.addEventListener("click", annoy)
 
+
 function annoy() {
   click.play();
-  clicks++;
+  clicks++
   if (clicks == 1) {
     text.innerHTML = "STOP PRESSING MEEEEEEEEEEEEEE!!!!"
   } else if (clicks == 4) {
     text.innerHTML = "I AM GETTING ANGRY!!!!!"
-  } else if (clicks == 6) {
+  }  if (clicks == 6) {
     text.innerHTML = "YOU'RE GOING TO UNLEASH THE BEAST!!!"
   } else if (clicks == 8) {
     text.innerHTML = "STOOOOOOOOOOOPPPPPPPPPPP!!!!!"
@@ -32,21 +33,24 @@ function annoy() {
   } else if (clicks == 18) {
     text.innerHTML = "LOOK OUTSIDE"
   } else if (clicks == 20) {
-    text.innerHTML = "I'M PLAYING WITH YOU, I'M NOT AT UR HOUSE"
+    text.innerHTML = "made you look :) "
   } else if (clicks == 22) {
-    button1.style.backgroundColor = "lime"
-    text.innerHTML = "SPEAKING OF PLAYING, LET'S PLAY A GAME"
-  } else if (clicks == 24) {
-    text.innerHTML = "SPEAKING OF PLAYING, LET'S PLAY A GAME"
+    text.innerHTML = "anyways, WEEEEEEEEEEEEEEEE"
     let button2 = document.createElement("button");
-    button2.innerHTML = "Press Me";
+    button2.innerHTML = "HI";
     button2.classList.add("button1");
     button2.classList.add("button2");
     container.appendChild(button2);
+    button1.classList.add("glitch");
+  } else if (clicks == 23) {
+    text.innerHTML = ("WOAH I'M DIZZY");
+    button1.classList.remove("glitch");
   } else if (clicks == 26) {
-
-    text.innerHTML = "PICK ONE(TRY TO CATCH ME)"
-    button1.classList.add("glitch")
-    button2.classList.add("glitch")
-  }
+    text.innerHTML = ("WAIT WHAT'S THAT ON THE TOP RIGHT");
+  } else if (clicks == 28) {
+    text.innerHTML = ("HI I'M BLUE");
+  } else if (clicks == 30) {
+    text.innerHTML = ("AND THIS IS THE END OF THE BUTTON GAME BECAUSE I SAID SO");
+    button1.classList.add("glitch");
+  } 
 }
