@@ -7,14 +7,30 @@
         transform:rotate(360deg) translateX(800px) rotate(-360deg) ;    }
 }
 
+@keyframes crazy{
+    from{
+        transform:rotate(360deg) translateX(100px) rotate(360deg) ;
+    }
+    to{
+        transform:rotate(360deg) translateX(700px) rotate(-760deg) ;    }
+}
+
+
 body{
 background-color: burlywood;
 text-align: center;
 }
 
 .glitch{
-    animation: glitch 0.00001s linear infinite;
+    animation: glitch 0.001s linear infinite;
 }
+
+.crazy{
+    animation: crazy 0.00001s linear infinite;
+}
+
+
+
 .lime{
     background-color: lime;
 }

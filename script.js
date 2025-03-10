@@ -50,7 +50,20 @@ function annoy() {
   } else if (clicks == 28) {
     text.innerHTML = ("HI I'M BLUE");
   } else if (clicks == 30) {
-    text.innerHTML = ("AND THIS IS THE END OF THE BUTTON GAME BECAUSE I SAID SO");
-    button1.classList.add("glitch");
+    text.innerHTML = ("If you press red again he'll go crazy.");
   } 
+  else if (clicks == 32) {
+    text.innerHTML = ("AHHHHHHHHHHHHHH.");
+    button1.classList.add("glitch");
+}
+else if (clicks == 33) {
+    text.innerHTML = ("SURPRISINGLY YOU PRESSED ME, NOW YOU HAVE TO GO TO 100");
+    button1.classList.remove("glitch");
+
+}
+
+else if (clicks == 100) {
+  text.innerHTML = ("YOU'VE REACHED THE FINAL STAGE");
+  button1.classList.add("crazy")
+}
 }
